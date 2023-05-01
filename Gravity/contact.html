@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Random Webpage - Contact</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Contact My Random Webpage</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                <li><a href="stars.html">Stars</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Contact Us</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="subject">Subject:</label>
+				<select id="subject" name="subject">
+					<option value="">--Please select--</option>
+					<option value="general">General Inquiry</option>
+					<option value="support">Technical Support</option>
+					<option value="billing">Billing Question</option>
+				</select><br><br>
+				<label>How did you hear about us?</label><br>
+				<input type="radio" id="referral" name="referral" value="referral">
+				<label for="referral">Referral</label><br>
+				<input type="radio" id="search" name="referral" value="search">
+				<label for="search">Search Engine</label><br>
+				<input type="radio" id="social" name="referral" value="social">
+				<label for="social">Social Media</label><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Annoying Webpage</p>
+	</footer>
+</body>
+</html>
